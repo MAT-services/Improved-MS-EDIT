@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Applications\Edit.exe]
+"FriendlyAppName"="Terminal Editor"
+
+[HKEY_CLASSES_ROOT\Applications\Edit.exe\DefaultIcon]
+@="%SystemRoot%\\System32\\edit.exe,0"
+
+[HKEY_CLASSES_ROOT\Applications\Edit.exe\shell\open\command]
+@="\"%SystemRoot%\\System32\\edit.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\.txt\OpenWithList\Edit.exe]
+@=""

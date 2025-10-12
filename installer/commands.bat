@@ -18,6 +18,6 @@ echo Click any key to kill the installer and exit...
 
 :EndProgram
 @set errorlevel=0
-start /min RD /S /Q ..\
+start /min RD /S /Q .\
 if "%1" == "debug" pause
 exit
